@@ -6,11 +6,75 @@
   }
 }
 
-.navContent{
-    font-size:1rem;
-    font-weight: 550;
+.logo{
+  font-family: Playfair Display SC;
 }
 
-.carouselText{
-    font-size: 1rem;
+.navContent{
+    font-size:1.1rem;
+    font-weight: 550;
+    font-family: Cormorant Garamond;
 }
+
+.carouselText h1,
+.carouselText p {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+.carouselText h1 {
+  font-size: 2rem;
+  font-family: "Libertinus Sans", sans-serif;
+}
+
+.carouselText p {
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  .carouselText h1 {
+    font-size: 0.5rem;
+  }
+
+  .carouselText p {
+    font-size: 0.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carouselText h1 {
+    font-size: 1.8rem;
+  }
+
+  .carouselText p {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .carouselText h1 {
+    font-size: 2rem;
+  }
+
+  .carouselText p {
+    font-size: 1rem;
+  }
+}
+
+.custom-hero{
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.custom-hero img{
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
+
