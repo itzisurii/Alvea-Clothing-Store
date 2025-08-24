@@ -1,0 +1,16 @@
+@import "flowbite";
+
+@media (min-width: 1024px) {
+  .carousel-container {
+    height: 30rem; 
+  }
+}
+
+.navContent{
+    font-size:1rem;
+    font-weight: 550;
+}
+
+.carouselText{
+    font-size: 1rem;
+}
